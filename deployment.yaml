@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mediawiki-deployment
+  labels:
+    rm: "346005"
+    turma: 2CLDR
+    app: mediawiki
+spec:
+  selector:
+    matchLabels:
+      rm: "346005"
+      turma: 2CLDR
+      app: mediawiki
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        rm: "346005"
+        turma: 2CLDR
+        app: mediawiki
+    spec:
+      containers:
+        - name: mediawiki
+          image: mediawiki:latest
+          ports:
+            - containerPort: 80
+          livenessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 10
+            periodSeconds: 15
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 5
+            periodSeconds: 10
