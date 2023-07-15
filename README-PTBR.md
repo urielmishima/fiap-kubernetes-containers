@@ -37,8 +37,14 @@ Você pode configurar o projeto modificando os arquivos `deployment.yaml` e `ser
 
 ## Informações
 
-* **Curso:** MBA em Cloud - Engineering & Architecture
-* **Turma:** 2CLDR
-* **Nome:** Uriel Mishima
-* **RM:** 346005
-* **Disciplina:** Orquestração Kubernetes e Containers
+- **Curso:** MBA em Cloud - Engineering & Architecture
+- **Turma:** 2CLDR
+- **Nome:** Uriel Mishima
+- **RM:** 346005
+- **Disciplina:** Orquestração Kubernetes e Containers
+
+## Você pode encontrar este projeto no seguinte repositório Git:
+
+```
+https://github.com/urielmishima/fiap-kubernetes-containers
+```

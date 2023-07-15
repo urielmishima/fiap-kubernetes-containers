@@ -6,8 +6,8 @@ This project provides a deployment of MediaWiki on a Kubernetes cluster. The pro
 
 To use this project, you need to have the following:
 
-* A Kubernetes cluster
-* The kubectl CLI installed and configured to connect to your cluster
+- A Kubernetes cluster
+- The kubectl CLI installed and configured to connect to your cluster
 
 ## Deployment
 
@@ -28,8 +28,8 @@ The load balancer IP address is the value listed for `EXTERNAL-IP`.
 
 ## Files
 
-* `deployment.yaml` - The deployment file that defines the Deployment for MediaWiki.
-* `service.yaml` - The service file that defines the Service that exposes the Deployment to the outside world.
+- `deployment.yaml` - The deployment file that defines the Deployment for MediaWiki.
+- `service.yaml` - The service file that defines the Service that exposes the Deployment to the outside world.
 
 ## Configuration
 
@@ -37,8 +37,14 @@ You can configure the project by modifying the `deployment.yaml` and `service.ya
 
 ## Information
 
-* **Course:** MBA in Cloud - Engineering & Architecture
-* **Class:** 2CLDR
-* **Name:** Uriel Mishima
-* **RM:** 346005
-* **Discipline:** Kubernetes Orchestration and Containers
+- **Course:** MBA in Cloud - Engineering & Architecture
+- **Class:** 2CLDR
+- **Name:** Uriel Mishima
+- **RM:** 346005
+- **Discipline:** Kubernetes Orchestration and Containers
+
+## You can find this project in the following Git repository:
+
+```
+https://github.com/urielmishima/fiap-kubernetes-containers
+```
